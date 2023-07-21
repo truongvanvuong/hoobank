@@ -14,13 +14,13 @@ const Navbar = () => {
     return (
         <nav
             ref={navRef}
-            className={` w-full z-[90] flex py-[10px] mt-2 md:mt-0 md:py-5 justify-between items-center navbar ${
+            className={` w-full z-[90] flex py-[10px] mt-2 md:mt-0 md:py-4 justify-between items-center navbar ${
                 isVisible ? 'bg-slate-600 md:mt-3 px-5 rounded-full fadein' : ''
             }`}>
             <img
                 src={logo}
                 alt='hooBank'
-                className='-ml-[16px] w-[114px] h-[22px] sm:w-[124px] sm:h-[32px]'
+                className='xs:-ml-[16px] sm:ml-0 w-[114px] h-[22px] sm:w-[124px] sm:h-[32px]'
             />
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                 {navLinks.map((nav, index) => (
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div
                     className={`${
                         toggle ? 'flex' : 'hidden'
-                    } p-6 bg-black-gradient absolute top-16 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+                    } p-6 bg-black-gradient absolute top-14 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
                     <ul className='list-none flex flex-col justify-end items-center flex-1'>
                         {navLinks.map((nav, index) => (
                             <li
