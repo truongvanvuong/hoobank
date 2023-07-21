@@ -30,7 +30,7 @@ const Navbar = () => {
                         ${
                             index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
                         } text-white`}>
-                        <a href={`#${nav.id}`} className=''>
+                        <a href={`#${nav.id}`} className='hover:text-secondary'>
                             {nav.title}
                         </a>
                     </li>
@@ -55,7 +55,9 @@ const Navbar = () => {
                         ${
                             index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                         } text-white`}>
-                                <a href={`#${nav.id}`} className=''>
+                                <a
+                                    href={`#${nav.id}`}
+                                    className='hover:text-secondary'>
                                     {nav.title}
                                 </a>
                             </li>
