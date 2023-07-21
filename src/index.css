@@ -15,6 +15,11 @@
 * {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 a {
@@ -35,14 +40,6 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.user-select {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-
-}
 
 .bg-blue-gradient {
   background: linear-gradient(157.81deg,

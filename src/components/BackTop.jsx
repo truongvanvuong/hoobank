@@ -13,15 +13,15 @@ const BackTop = () => {
         <div
             className={` ${
                 isVisible ? '' : 'hidden'
-            } fixed bottom-[25px] right-[25px] sm:bottom-[30px] sm:right-[35px] z-[100] fadein select-none`}>
+            } fixed bottom-[25px] right-[25px] sm:bottom-[30px] sm:right-[35px] z-[100] fadein `}>
             <button
-                className='select-none sm:w-[65px] sm:h-[65px] w-[50px] h-[50px]  rounded-full flex justify-center items-center bg-slate-600 shadow-2xl'
+                className='outline-none border-none sm:w-[65px] sm:h-[65px] w-[50px] h-[50px]  rounded-full flex justify-center items-center bg-slate-600 shadow-2xl'
                 onClick={backToTop}>
                 <img
                     draggable='false'
                     src={arrowUpToTop}
                     alt='BackToTop'
-                    className='select-none w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] cursor-pointer'
+                    className=' w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] cursor-pointer'
                 />
             </button>
         </div>

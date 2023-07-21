@@ -20,7 +20,7 @@ const Navbar = () => {
             <img
                 src={logo}
                 alt='hooBank'
-                className='w-[114px] h-[22px] sm:w-[124px] sm:h-[32px] '
+                className='-ml-[16px] w-[114px] h-[22px] sm:w-[124px] sm:h-[32px]'
             />
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                 {navLinks.map((nav, index) => (
