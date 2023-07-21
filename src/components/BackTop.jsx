@@ -13,7 +13,7 @@ const BackTop = () => {
         <div
             className={` ${
                 isVisible ? '' : 'hidden'
-            } fixed bottom-[25px] right-[25px] sm:bottom-[30px] sm:right-[35px] z-[100] fadein`}>
+            } fixed bottom-[25px] right-[25px] sm:bottom-[30px] sm:right-[35px] z-[100] fadein user-select`}>
             <div
                 className='sm:w-[65px] sm:h-[65px] w-[50px] h-[50px]  rounded-full flex justify-center items-center bg-slate-600 shadow-2xl'
                 onClick={backToTop}>
