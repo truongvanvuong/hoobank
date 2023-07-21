@@ -13,14 +13,14 @@ const BackTop = () => {
         <div
             className={` ${
                 isVisible ? '' : 'hidden'
-            } fixed bottom-[40px] right-[40px] z-[100] fadein`}>
+            } fixed bottom-[25px] right-[25px] sm:bottom-[30px] sm:right-[35px] z-[100] fadein `}>
             <div
-                className='w-[65px] h-[65px] rounded-full flex justify-center items-center bg-slate-600 shadow-2xl'
+                className='sm:w-[65px] sm:h-[65px] w-[50px] h-[50px]  rounded-full flex justify-center items-center bg-slate-600 shadow-2xl'
                 onClick={backToTop}>
                 <img
                     src={arrowUpToTop}
                     alt='BackToTop'
-                    className='w-[40px] h-[40px] cursor-pointer'
+                    className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] cursor-pointer'
                 />
             </div>
         </div>
