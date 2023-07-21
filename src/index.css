@@ -35,6 +35,14 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.user-select {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(157.81deg,
       #def9fa -43.27%,

@@ -14,9 +14,9 @@ const Navbar = () => {
     return (
         <nav
             ref={navRef}
-            className={`${
-                isVisible ? 'bg-slate-600 mt-3 px-5 rounded-full fadein' : ''
-            } w-full z-[90] flex py-4 md:py-5 justify-between items-center navbar`}>
+            className={` w-full z-[90] flex py-3 mt-2 md:mt-0 md:py-5 justify-between items-center navbar ${
+                isVisible ? 'bg-slate-600 md:mt-3 px-5 rounded-full fadein' : ''
+            }`}>
             <img src={logo} alt='hooBank' className='w-[124px] h-[32px]' />
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                 {navLinks.map((nav, index) => (
