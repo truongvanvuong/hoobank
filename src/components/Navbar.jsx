@@ -14,10 +14,14 @@ const Navbar = () => {
     return (
         <nav
             ref={navRef}
-            className={` w-full z-[90] flex py-3 mt-2 md:mt-0 md:py-5 justify-between items-center navbar ${
+            className={` w-full z-[90] flex py-[10px] mt-2 md:mt-0 md:py-5 justify-between items-center navbar ${
                 isVisible ? 'bg-slate-600 md:mt-3 px-5 rounded-full fadein' : ''
             }`}>
-            <img src={logo} alt='hooBank' className='w-[124px] h-[32px]' />
+            <img
+                src={logo}
+                alt='hooBank'
+                className='w-[114px] h-[22px] sm:w-[124px] sm:h-[32px] '
+            />
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                 {navLinks.map((nav, index) => (
                     <li

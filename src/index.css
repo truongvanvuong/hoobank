@@ -37,10 +37,11 @@ a {
 
 .user-select {
   -webkit-user-select: none;
-  /* Safari */
-  -ms-user-select: none;
-  /* IE 10 and IE 11 */
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
   user-select: none;
+
 }
 
 .bg-blue-gradient {
